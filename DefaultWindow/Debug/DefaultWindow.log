@@ -1,0 +1,5 @@
+﻿  CloudTile.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\CloudTile.cpp(60,22): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\CloudTile.cpp(61,22): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  DefaultWindow.vcxproj -> D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\Debug\DefaultWindow.exe

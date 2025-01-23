@@ -1,0 +1,249 @@
+﻿  stdafx.cpp
+  Air_Man.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Air_ManAnimation.cpp
+  Air_ManState.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  AM_LIdle.cpp
+  AM_LAir_Jump.cpp
+  AM_LPush_Wind.cpp
+  AM_LSplash_Wind.cpp
+  AM_Opening.cpp
+  AM_RIdle.cpp
+  AM_RAir_Jump.cpp
+  AM_RPush_Wind.cpp
+  AM_RSplash_Wind.cpp
+  BmpMgr.cpp
+  BossHit.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  BossIntro.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\BossIntro.cpp(48,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\BossIntro.cpp(64,33): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  BossTrigger.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Boss_HpBar.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Boss_HpBar.cpp(13,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Boss_HpBar.cpp(26,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Boss_HpNote.cpp
+  Boss_Wind.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  BsDeadEffect.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  컴파일하고 있습니다...
+  Cloud.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CloudTile.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\CloudTile.cpp(60,22): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\CloudTile.cpp(61,22): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CloudTrigger.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CollisionMgr.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CoPipi.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\CoPipi.cpp(34,33): warning C4244: '=': 'DWORD'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GameEnd.cpp
+  Inventory.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  LargeMp.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MetalBlade.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Player_MpBar.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player_MpBar.cpp(14,24): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player_MpBar.cpp(19,24): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player_MpBar.cpp(35,24): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player_MpBar.cpp(40,24): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player_MpBar.cpp(59,3): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player_MpBar.cpp(58,3): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player_MpBar.cpp(54,3): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player_MpBar.cpp(53,3): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Player_MpNote.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player_MpNote.cpp(30,3): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player_MpNote.cpp(29,3): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player_MpNote.cpp(25,3): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player_MpNote.cpp(24,3): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  PlDeadEffect.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  DeadTrigger.cpp
+  DefaultWindow.cpp
+  DoorTrigger.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\DoorTrigger.cpp(63,19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Effect.cpp
+  EffectMgr.cpp
+  FCBullet.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GoblinTile.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\GoblinTile.cpp(39,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  GoblinTrigger.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  컴파일하고 있습니다...
+  KeyMgr.cpp
+  LargeDead.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  LargeHelth.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Logo.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Logo.cpp(43,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Logo.cpp(53,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Logo.cpp(62,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Logo.cpp(71,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Logo.cpp(105,3): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Logo.cpp(104,3): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Logo.cpp(103,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Logo.cpp(102,9): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Logo.cpp(100,3): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Logo.cpp(99,3): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MainGame.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Matasaburo.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MCBullet.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MiddleDead.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MyBmp.cpp
+  MyEdit.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MyMenu.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\MyMenu.cpp(68,19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\MyMenu.cpp(124,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\MyMenu.cpp(162,50): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  NormalBullet.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  NormalTile.cpp
+  Obj.cpp
+  ObjMgr.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Pipi.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  PipiEgg.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  PipiTrigger.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Player.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player.cpp(106,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player.cpp(145,45): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player.cpp(152,32): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player.cpp(182,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player.cpp(200,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player.cpp(300,22): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player.cpp(298,41): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player.cpp(295,22): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player.cpp(315,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player.cpp(313,42): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player.cpp(310,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  PlayerHit.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  컴파일하고 있습니다...
+  Player_HpBar.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player_HpBar.cpp(13,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player_HpBar.cpp(26,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player_HpBar.cpp(52,3): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player_HpBar.cpp(51,3): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player_HpBar.cpp(47,3): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player_HpBar.cpp(46,3): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Player_HpNote.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player_HpNote.cpp(30,3): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player_HpNote.cpp(29,3): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player_HpNote.cpp(25,3): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Player_HpNote.cpp(24,3): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Pl_Animation.cpp
+  Pl_DownTp.cpp
+  Pl_FC_LIdle.cpp
+  Pl_FC_LJump.cpp
+  Pl_FC_LSliding.cpp
+  Pl_FC_LWalk.cpp
+  Pl_FC_RIdle.cpp
+  Pl_FC_RJump.cpp
+  Pl_FC_RSliding.cpp
+  Pl_FC_RWalk.cpp
+  Pl_LAtk.cpp
+  Pl_LHit.cpp
+  Pl_LIdle.cpp
+  Pl_LJump.cpp
+  Pl_LJump_Atk.cpp
+  Pl_LSliding.cpp
+  Pl_LWalk.cpp
+  Pl_LWalk_Atk.cpp
+  컴파일하고 있습니다...
+  Pl_MC_LIdle.cpp
+  Pl_MC_LJump.cpp
+  Pl_MC_LSliding.cpp
+  Pl_MC_LWalk.cpp
+  Pl_MC_RIdle.cpp
+  Pl_MC_RJump.cpp
+  Pl_MC_RSliding.cpp
+  Pl_MC_RWalk.cpp
+  Pl_RAtk.cpp
+  Pl_RHit.cpp
+  Pl_RIdle.cpp
+  PlayerState.cpp
+  Pl_RJump.cpp
+  Pl_RJump_Atk.cpp
+  Pl_RSliding.cpp
+  Pl_RWalk.cpp
+  Pl_SuccesTp.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\Pl_SuccesTp.cpp(21,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Pl_UpTp.cpp
+  PucciGoblin.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ReefShield.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  컴파일하고 있습니다...
+  RushCoil.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\RushCoil.cpp(59,19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Scene.cpp
+  SceneMgr.cpp
+  SclMove_XTrigger.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SclMove_YTrigger.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ScrollMgr.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SclFix_XTrigger.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SelectBoss.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\SelectBoss.cpp(52,31): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\SelectBoss.cpp(63,31): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\SelectBoss.cpp(91,41): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\SelectBoss.cpp(175,3): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\SelectBoss.cpp(174,3): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\SelectBoss.cpp(172,9): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\SelectBoss.cpp(170,3): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\SelectBoss.cpp(169,3): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SmallDead.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SmallHelth.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SmallMp.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SoundMgr.cpp
+  StgAirman.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\StgAirman.cpp(183,32): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+  Pl_RWalk_Atk.cpp
+  Thunder.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ThunderLoad.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ThunderLoad.cpp(59,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Tile.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  TileMgr.cpp
+  Trigger.cpp
+  TriggerMgr.cpp
+  컴파일하고 있습니다...
+  VerySmallDead.cpp
+D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\DefaultWindow\ScrollMgr.h(34,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 1745 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  DefaultWindow.vcxproj -> D:\JusinProject\API포트폴리오(록맨)\록맨2 시연용\api시연회(록맨2)\시연회\Release\DefaultWindow.exe

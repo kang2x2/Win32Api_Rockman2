@@ -1,0 +1,1117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. Obj">
+      <UniqueIdentifier>{34ea21b2-7929-44bb-ad75-74ee86870eba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player">
+      <UniqueIdentifier>{9bf70e91-be93-40ad-a3c9-dce4e8e025cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene">
+      <UniqueIdentifier>{eff992b5-6d12-4e0f-b79b-0a2b6ae58eeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\00. Logo">
+      <UniqueIdentifier>{40554e4c-1a4a-4c57-9463-412bd85c580f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\02. SelectBoss">
+      <UniqueIdentifier>{882b69b2-05ee-4bce-8505-f7c563bb85cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\03. BossIntor">
+      <UniqueIdentifier>{86a5e82c-9a64-49bd-9d7e-7b3144623a39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\05. Clear">
+      <UniqueIdentifier>{41ea74b4-0b94-4fba-9ced-07957f02012b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\05. End">
+      <UniqueIdentifier>{2d31e96e-ad78-466f-a489-7e4946e2ca0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\04. Stg_Airman">
+      <UniqueIdentifier>{1097cddc-fe74-4aae-ab5d-cf12f0f14464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. MainGame%28록맨%29">
+      <UniqueIdentifier>{9519dae6-4498-4c11-86a3-4b3cebd0e891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\06. Edit">
+      <UniqueIdentifier>{c515e4c6-39fb-4de7-a482-8820ea658c77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Enemy">
+      <UniqueIdentifier>{45914a16-b0d9-4896-ae79-3b0e92b6a005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Item">
+      <UniqueIdentifier>{0bb24b28-52d4-4c1c-acca-f97733b681c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Tile">
+      <UniqueIdentifier>{29b100e2-1c10-4340-b5db-eb0cae4336d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Tile\00. NormalTile">
+      <UniqueIdentifier>{75c0eb22-bae6-432e-9881-274ca0cffdf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\05. Bullet">
+      <UniqueIdentifier>{f3c6718b-06ab-4190-ade2-0b5efc50a62e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\05. Bullet\00. PlayerBullet">
+      <UniqueIdentifier>{15bd30b4-3bb9-496f-b62a-0fa215e1cbba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player\00. PlayerState">
+      <UniqueIdentifier>{4ce88774-64b1-43b9-b2db-8ed46cd9533d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player\01. Animation">
+      <UniqueIdentifier>{37b1efd9-8ad7-41ef-b0e9-7b39de85fffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player\00. PlayerState\00. NormalState">
+      <UniqueIdentifier>{313e5321-63a8-42b2-8e51-7c8ce4f5216c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player\00. PlayerState\00. NormalState\00. Idle">
+      <UniqueIdentifier>{abfeab7e-91fc-4908-a25c-9a7b94aa9ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player\00. PlayerState\00. NormalState\01. Walk">
+      <UniqueIdentifier>{015240b5-ee86-4be9-afad-e8d8626d523b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player\00. PlayerState\00. NormalState\02. Jump">
+      <UniqueIdentifier>{e1691277-b4cd-448e-bfc1-71157bef4ade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player\00. PlayerState\00. NormalState\03. Attack">
+      <UniqueIdentifier>{73acee26-0df3-4dc8-a98b-1e7fe65fc445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player\00. PlayerState\00. NormalState\04. Sliding">
+      <UniqueIdentifier>{f5365815-a604-475f-b64b-af62fba1f6ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player\00. PlayerState\01. MCState">
+      <UniqueIdentifier>{7f7cb4cf-c36f-4761-8209-c49cd79b44a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player\00. PlayerState\02. FCState">
+      <UniqueIdentifier>{8e65f44c-e8ca-4de6-9d2d-becfdd3fec50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player\00. PlayerState\00. NormalState\05. WalkAttack">
+      <UniqueIdentifier>{c22901db-899c-4ac5-b174-f17aa6f71886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player\00. PlayerState\00. NormalState\06. JumpAttack">
+      <UniqueIdentifier>{1e074a83-b59a-4a8d-81ea-4a4691d84592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player\00. PlayerState\01. MCState\00. Idle">
+      <UniqueIdentifier>{04c7b1f6-39f4-47c1-863b-7496d8ca2e9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player\00. PlayerState\01. MCState\01. Walk">
+      <UniqueIdentifier>{061b51f5-267b-4ed9-823c-85efed5ccda9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player\00. PlayerState\01. MCState\02. Jump">
+      <UniqueIdentifier>{0c8a90f5-17cf-4121-9db8-1e1eb7be9db9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player\00. PlayerState\02. FCState\00. Idle">
+      <UniqueIdentifier>{b8a21ee0-41e4-4c04-923e-596d3cbe7304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player\00. PlayerState\02. FCState\01. Walk">
+      <UniqueIdentifier>{aeb20003-36f4-4654-a126-f73ac533e323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player\00. PlayerState\02. FCState\02. Jump">
+      <UniqueIdentifier>{ebbb8ff4-2f02-48bc-85f9-9e92b75ca50a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player\00. PlayerState\01. MCState\03. Sliding">
+      <UniqueIdentifier>{616d0032-004f-4394-82e1-5953259d6159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player\00. PlayerState\02. FCState\03. Sliding">
+      <UniqueIdentifier>{0bb5e3a5-5c38-40de-baa3-1957ce674ef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Enemy\00. Air_Man">
+      <UniqueIdentifier>{9defcd18-bf71-4044-952b-fe573ab737e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Enemy\00. Air_Man\Air_ManState">
+      <UniqueIdentifier>{48ead822-cdbd-4ec8-a061-5f78db39b306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Enemy\00. Air_Man\Air_ManAnimation">
+      <UniqueIdentifier>{6313e2ad-0128-41ec-b08e-624e07fea985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Enemy\00. Air_Man\Air_ManState\00. Opening">
+      <UniqueIdentifier>{2e388805-8d24-4d7d-a396-6889d8944445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Enemy\00. Air_Man\Air_ManState\02. Jump">
+      <UniqueIdentifier>{7be5bd7b-84c8-4e7c-a7a6-9f95a4c58428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Enemy\00. Air_Man\Air_ManState\01. Idle">
+      <UniqueIdentifier>{e0a48ba7-37dc-4ef2-bc46-7446a210d92b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI">
+      <UniqueIdentifier>{f1744117-9948-4e0e-8802-796120531ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\00. Player">
+      <UniqueIdentifier>{bbb0e098-5c4c-477d-9a52-b28e209bcfeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\01. Boss">
+      <UniqueIdentifier>{63eebf1a-e59e-40e4-a9da-2b7752df0ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Enemy\00. Air_Man\Air_ManState\03. SplashWind">
+      <UniqueIdentifier>{3c3603b4-b276-4023-9f08-5807320a3dbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\05. Bullet\01. BossBullet">
+      <UniqueIdentifier>{195d8e5d-a1e5-456c-8fbb-850ab6bfa0e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Enemy\00. Air_Man\Air_ManState\04. PushWind">
+      <UniqueIdentifier>{adc9874a-6ad6-4fe9-91ff-c0f8fd90a773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Effect">
+      <UniqueIdentifier>{737a47a2-88f4-4fa1-953c-d8c2e7670a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Effect\01. BossHit">
+      <UniqueIdentifier>{f85d315d-25c4-4d27-b73c-ca3550aecc6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Effect\00. PlayerHit">
+      <UniqueIdentifier>{3c5f7f53-0cd1-4af5-9856-18a6b424c928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player\00. PlayerState\00. NormalState\07. Hit">
+      <UniqueIdentifier>{8af6931b-16eb-49b0-bc15-85450240f8da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Define">
+      <UniqueIdentifier>{b1247b82-2de1-4d87-98b8-7721f66bf5ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Trigger">
+      <UniqueIdentifier>{804615ca-7351-4601-abad-4a58e4ee61e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\06. Cloud">
+      <UniqueIdentifier>{368332e7-6f2a-40b8-9f98-45e7be387ae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Tile\02. GoblinTile">
+      <UniqueIdentifier>{aad5244b-4366-435e-970f-a0293ea1a21d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Trigger\00. GoblinTrigger">
+      <UniqueIdentifier>{7cda381b-a0f2-4411-a54c-0f61458c478f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Tile\01. CloudTile">
+      <UniqueIdentifier>{366b2142-22b7-4d1b-ab18-847722c438be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Trigger\01. ScrollYTrigger">
+      <UniqueIdentifier>{e9ad20ab-d240-431a-aa69-c3af1a080e8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Trigger\02. ScrollXTrigger">
+      <UniqueIdentifier>{51790949-0f21-448a-8788-6f3e3e062df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Trigger\02. ScrollXTrigger\00. SclFix_XTrigger">
+      <UniqueIdentifier>{e46406c5-2bf2-4069-94a1-8fe8da7b088d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Trigger\02. ScrollXTrigger\01. SclMove_XTrigger">
+      <UniqueIdentifier>{f227bc35-1bad-4f05-a57a-8892d457f786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Trigger\03. BossTrigger">
+      <UniqueIdentifier>{3954b547-5850-4168-b15b-9e9cd0da69ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\01. Title">
+      <UniqueIdentifier>{f8c69a7d-b9da-45d7-9a55-33fba1e6a71a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player\00. PlayerState\00. NormalState\08. Teleport">
+      <UniqueIdentifier>{d7994c83-9474-4f43-92a0-cd2e730f8a2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Enemy\01. Pucci Goblin">
+      <UniqueIdentifier>{c8fda3c6-0518-4790-9ef4-656f5aae44fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Trigger\04. CloudTrigger">
+      <UniqueIdentifier>{b5551dfc-06f4-48c8-a5e4-992fd6687501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Enemy\02. ThunderLoad">
+      <UniqueIdentifier>{1428ffa2-c158-4ff4-8e28-d3db351853ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\05. Bullet\02. EnemyBullet">
+      <UniqueIdentifier>{bd953b9d-b90f-410d-94bf-d0ab6b12971f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Enemy\03. Pipi">
+      <UniqueIdentifier>{dd9e56b7-5bfa-4ca8-99d1-e84293aa8c15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Enemy\03. Pipi\00. PipiEgg">
+      <UniqueIdentifier>{756841b4-a365-4d35-b332-0850d57604c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Enemy\03. Pipi\01. CoPipi">
+      <UniqueIdentifier>{5b39b223-dd21-4412-884e-1d8b2047e050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Trigger\05. PipiTrigger">
+      <UniqueIdentifier>{c1de4ae0-665f-4790-99ad-bd4031de57eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Enemy\04. Matasaburo">
+      <UniqueIdentifier>{b60ab59d-1b06-41ef-81c7-f8895b9785e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Effect\02. EnemyDead">
+      <UniqueIdentifier>{9c33adff-7cdc-4814-9c58-a168b35cabd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Effect\02. EnemyDead\01. SmallDead">
+      <UniqueIdentifier>{d161f3a8-ae55-40a3-ada2-ad17c42b721e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Manager">
+      <UniqueIdentifier>{566bea98-10b5-4f51-a518-934e39715499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Manager\01. SceneMgr">
+      <UniqueIdentifier>{67c2169c-c574-4b31-8d56-16a0499e8963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Manager\02. BmpMgr">
+      <UniqueIdentifier>{fa962b92-e355-44b3-a090-aac26339d07b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Manager\02. BmpMgr\00. MyBmp">
+      <UniqueIdentifier>{37c5e781-1bfa-4b32-88dd-fbd4831950ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Manager\03. KeyMgr">
+      <UniqueIdentifier>{0c26001b-9bd7-4373-8c8c-9c4f98f13a72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Manager\04. ObjMgr">
+      <UniqueIdentifier>{7336ab48-4cf0-49e2-a7ea-e6c765833f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Manager\05. AbstractFactory">
+      <UniqueIdentifier>{445d1226-675d-47be-9e64-bf5d5961ac3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Manager\06. ScrollMgr">
+      <UniqueIdentifier>{b517e8d3-b0f4-41a2-b0d2-10a1a453f664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Manager\07. CollisionMgr">
+      <UniqueIdentifier>{2ec1a891-33a5-449b-9fb0-e68a68cd6724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Manager\08. SoundMgr">
+      <UniqueIdentifier>{9059abfa-8c36-4e13-b886-840d251d7695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Manager\09. TileMgr">
+      <UniqueIdentifier>{73a7cd01-8e44-4618-a1ec-82506a014e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Manager\10. TriggerMgr">
+      <UniqueIdentifier>{a7d32775-70df-4b82-ba9d-a99dca69083f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Manager\11. EffectMgr">
+      <UniqueIdentifier>{07a9fa33-047b-4536-98e7-f4f439132585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Effect\02. EnemyDead\02. MiddleDead">
+      <UniqueIdentifier>{d70e6a59-f4e2-47ec-bf27-68b6248bfaf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Effect\02. EnemyDead\03. LargeDead">
+      <UniqueIdentifier>{7e9bb68d-9305-40ad-802d-476cb3827270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Effect\02. EnemyDead\00. VerySmallDead">
+      <UniqueIdentifier>{397bb755-022a-45ba-b890-d663a2dfd129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Item\00. SmallHelth">
+      <UniqueIdentifier>{80d4c02a-363b-4758-b5de-d9e39f135b17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Item\01. LargeHelth">
+      <UniqueIdentifier>{a7099cb4-38c0-4819-86a2-2e59491a47ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Trigger\06. DeadTrigger">
+      <UniqueIdentifier>{0c43b80b-94a3-4ebe-87a1-631f5d3de3fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Trigger\07. DoorTrigger">
+      <UniqueIdentifier>{f7e29939-d24e-43c1-896f-2b240c8f7e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Effect\03. PlayerDead">
+      <UniqueIdentifier>{033effc9-d1cc-41ae-8d79-d2ce234dcb7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Effect\04. BossDead">
+      <UniqueIdentifier>{e984265c-67d6-405d-8780-d70d2f3642d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\00. Player\00. Inventory">
+      <UniqueIdentifier>{d98105b6-fa73-4431-9a5a-290b829f01e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\05. Bullet\00. PlayerBullet\00. Normal">
+      <UniqueIdentifier>{8106d68c-7c1d-47a0-b4a1-2be065d29381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\05. Bullet\00. PlayerBullet\01. MetalBlade">
+      <UniqueIdentifier>{1f22b038-efd8-4e98-9fc8-7ac24f5dd123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\00. Player\01. Hp">
+      <UniqueIdentifier>{822ebb09-f3da-4805-b9cd-39c1b7cf8d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\00. Player\02. Mp">
+      <UniqueIdentifier>{06d97c90-31b7-4bf1-af7e-086d779fa48e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\05. Bullet\00. PlayerBullet\02. ReefShield">
+      <UniqueIdentifier>{41a0b2a5-2827-4143-a6d8-6c309e7d0cc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Item\02. SmallMp">
+      <UniqueIdentifier>{609c1eee-9cdd-44fc-99d1-cee0c1615c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Item\03. LargeMp">
+      <UniqueIdentifier>{c7f90093-4f6a-4961-a83e-aa051be0c7a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\05. Bullet\00. PlayerBullet\03. Rush">
+      <UniqueIdentifier>{62cb48f5-eeb5-458c-bb73-8ea9aae95fd0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultWindow.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00. MainGame%28록맨%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>01. Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01. Obj\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>07. Manager\01. SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>02. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>07. Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>07. Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>07. Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>02. Scene\00. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMenu.h">
+      <Filter>02. Scene\01. Title</Filter>
+    </ClInclude>
+    <ClInclude Include="StgAirman.h">
+      <Filter>02. Scene\04. Stg_Airman</Filter>
+    </ClInclude>
+    <ClInclude Include="BmpMgr.h">
+      <Filter>07. Manager\02. BmpMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBmp.h">
+      <Filter>07. Manager\02. BmpMgr\00. MyBmp</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>07. Manager\03. KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>07. Define</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>07. Manager\04. ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>07. Manager\05. AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollMgr.h">
+      <Filter>07. Manager\06. ScrollMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MyEdit.h">
+      <Filter>02. Scene\06. Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>07. Manager\07. CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalTile.h">
+      <Filter>01. Obj\03. Tile\00. NormalTile</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.h">
+      <Filter>01. Obj\00. Player\00. PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_RWalk.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\01. Walk</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_Animation.h">
+      <Filter>01. Obj\00. Player\01. Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_RJump.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\02. Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_RJump_Atk.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\06. JumpAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_LWalk.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\01. Walk</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_RWalk_Atk.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\05. WalkAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_RAtk.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\03. Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_LWalk_Atk.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\05. WalkAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_LJump.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\02. Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_LJump_Atk.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\06. JumpAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_LAtk.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\03. Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_RSliding.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\04. Sliding</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_LSliding.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\04. Sliding</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_LIdle.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\00. Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_RIdle.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\00. Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_MC_LIdle.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\01. MCState\00. Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_MC_RIdle.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\01. MCState\00. Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_FC_LIdle.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\02. FCState\00. Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_FC_RIdle.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\02. FCState\00. Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_MC_RWalk.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\01. MCState\01. Walk</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_MC_LWalk.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\01. MCState\01. Walk</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_MC_LSliding.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\01. MCState\03. Sliding</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_MC_RSliding.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\01. MCState\03. Sliding</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_MC_LJump.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\01. MCState\02. Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_MC_RJump.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\01. MCState\02. Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_FC_LWalk.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\02. FCState\01. Walk</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_FC_RWalk.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\02. FCState\01. Walk</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_FC_RJump.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\02. FCState\02. Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_FC_LJump.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\02. FCState\02. Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_FC_LSliding.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\02. FCState\03. Sliding</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_FC_RSliding.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\02. FCState\03. Sliding</Filter>
+    </ClInclude>
+    <ClInclude Include="Air_Man.h">
+      <Filter>01. Obj\01. Enemy\00. Air_Man</Filter>
+    </ClInclude>
+    <ClInclude Include="Air_ManState.h">
+      <Filter>01. Obj\01. Enemy\00. Air_Man\Air_ManState</Filter>
+    </ClInclude>
+    <ClInclude Include="Air_ManAnimation.h">
+      <Filter>01. Obj\01. Enemy\00. Air_Man\Air_ManAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="AM_Opening.h">
+      <Filter>01. Obj\01. Enemy\00. Air_Man\Air_ManState\00. Opening</Filter>
+    </ClInclude>
+    <ClInclude Include="AM_LAir_Jump.h">
+      <Filter>01. Obj\01. Enemy\00. Air_Man\Air_ManState\02. Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="AM_RAir_Jump.h">
+      <Filter>01. Obj\01. Enemy\00. Air_Man\Air_ManState\02. Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="AM_RIdle.h">
+      <Filter>01. Obj\01. Enemy\00. Air_Man\Air_ManState\01. Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="AM_LIdle.h">
+      <Filter>01. Obj\01. Enemy\00. Air_Man\Air_ManState\01. Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="AM_RSplash_Wind.h">
+      <Filter>01. Obj\01. Enemy\00. Air_Man\Air_ManState\03. SplashWind</Filter>
+    </ClInclude>
+    <ClInclude Include="AM_LSplash_Wind.h">
+      <Filter>01. Obj\01. Enemy\00. Air_Man\Air_ManState\03. SplashWind</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_Wind.h">
+      <Filter>01. Obj\05. Bullet\01. BossBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="AM_LPush_Wind.h">
+      <Filter>01. Obj\01. Enemy\00. Air_Man\Air_ManState\04. PushWind</Filter>
+    </ClInclude>
+    <ClInclude Include="AM_RPush_Wind.h">
+      <Filter>01. Obj\01. Enemy\00. Air_Man\Air_ManState\04. PushWind</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_HpNote.h">
+      <Filter>03. UI\01. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_HpBar.h">
+      <Filter>03. UI\01. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BossHit.h">
+      <Filter>04. Effect\01. BossHit</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_LHit.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\07. Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_RHit.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\07. Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHit.h">
+      <Filter>04. Effect\00. PlayerHit</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>07. Manager\08. SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Cloud.h">
+      <Filter>01. Obj\06. Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="GoblinTile.h">
+      <Filter>01. Obj\03. Tile\02. GoblinTile</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMgr.h">
+      <Filter>07. Manager\09. TileMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="GoblinTrigger.h">
+      <Filter>05. Trigger\00. GoblinTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerMgr.h">
+      <Filter>07. Manager\10. TriggerMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger.h">
+      <Filter>05. Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudTile.h">
+      <Filter>01. Obj\03. Tile\01. CloudTile</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>01. Obj\03. Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="SclMove_YTrigger.h">
+      <Filter>05. Trigger\01. ScrollYTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="SclFix_XTrigger.h">
+      <Filter>05. Trigger\02. ScrollXTrigger\00. SclFix_XTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="SclMove_XTrigger.h">
+      <Filter>05. Trigger\02. ScrollXTrigger\01. SclMove_XTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="BossTrigger.h">
+      <Filter>05. Trigger\03. BossTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectBoss.h">
+      <Filter>02. Scene\02. SelectBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="BossIntro.h">
+      <Filter>02. Scene\03. BossIntor</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_DownTp.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\08. Teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_SuccesTp.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\08. Teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="PucciGoblin.h">
+      <Filter>01. Obj\01. Enemy\01. Pucci Goblin</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudTrigger.h">
+      <Filter>05. Trigger\04. CloudTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="ThunderLoad.h">
+      <Filter>01. Obj\01. Enemy\02. ThunderLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="Thunder.h">
+      <Filter>01. Obj\05. Bullet\02. EnemyBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipi.h">
+      <Filter>01. Obj\01. Enemy\03. Pipi</Filter>
+    </ClInclude>
+    <ClInclude Include="PipiEgg.h">
+      <Filter>01. Obj\01. Enemy\03. Pipi\00. PipiEgg</Filter>
+    </ClInclude>
+    <ClInclude Include="CoPipi.h">
+      <Filter>01. Obj\01. Enemy\03. Pipi\01. CoPipi</Filter>
+    </ClInclude>
+    <ClInclude Include="PipiTrigger.h">
+      <Filter>05. Trigger\05. PipiTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Matasaburo.h">
+      <Filter>01. Obj\01. Enemy\04. Matasaburo</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallDead.h">
+      <Filter>04. Effect\02. EnemyDead\01. SmallDead</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectMgr.h">
+      <Filter>07. Manager\11. EffectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>04. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="MiddleDead.h">
+      <Filter>04. Effect\02. EnemyDead\02. MiddleDead</Filter>
+    </ClInclude>
+    <ClInclude Include="LargeDead.h">
+      <Filter>04. Effect\02. EnemyDead\03. LargeDead</Filter>
+    </ClInclude>
+    <ClInclude Include="VerySmallDead.h">
+      <Filter>04. Effect\02. EnemyDead\00. VerySmallDead</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallHelth.h">
+      <Filter>01. Obj\02. Item\00. SmallHelth</Filter>
+    </ClInclude>
+    <ClInclude Include="LargeHelth.h">
+      <Filter>01. Obj\02. Item\01. LargeHelth</Filter>
+    </ClInclude>
+    <ClInclude Include="DeadTrigger.h">
+      <Filter>05. Trigger\06. DeadTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorTrigger.h">
+      <Filter>05. Trigger\07. DoorTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="PlDeadEffect.h">
+      <Filter>04. Effect\03. PlayerDead</Filter>
+    </ClInclude>
+    <ClInclude Include="BsDeadEffect.h">
+      <Filter>04. Effect\04. BossDead</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEnd.h">
+      <Filter>02. Scene\05. End</Filter>
+    </ClInclude>
+    <ClInclude Include="Pl_UpTp.h">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\08. Teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>03. UI\00. Player\00. Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="FCBullet.h">
+      <Filter>01. Obj\05. Bullet\00. PlayerBullet\00. Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="MCBullet.h">
+      <Filter>01. Obj\05. Bullet\00. PlayerBullet\00. Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalBullet.h">
+      <Filter>01. Obj\05. Bullet\00. PlayerBullet\00. Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="MetalBlade.h">
+      <Filter>01. Obj\05. Bullet\00. PlayerBullet\01. MetalBlade</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_HpBar.h">
+      <Filter>03. UI\00. Player\01. Hp</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_HpNote.h">
+      <Filter>03. UI\00. Player\01. Hp</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_MpBar.h">
+      <Filter>03. UI\00. Player\02. Mp</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_MpNote.h">
+      <Filter>03. UI\00. Player\02. Mp</Filter>
+    </ClInclude>
+    <ClInclude Include="ReefShield.h">
+      <Filter>01. Obj\05. Bullet\00. PlayerBullet\02. ReefShield</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallMp.h">
+      <Filter>01. Obj\02. Item\02. SmallMp</Filter>
+    </ClInclude>
+    <ClInclude Include="LargeMp.h">
+      <Filter>01. Obj\02. Item\03. LargeMp</Filter>
+    </ClInclude>
+    <ClInclude Include="RushCoil.h">
+      <Filter>01. Obj\05. Bullet\00. PlayerBullet\03. Rush</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultWindow.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00. MainGame%28록맨%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>01. Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01. Obj\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>07. Manager\01. SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>02. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>02. Scene\00. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMenu.cpp">
+      <Filter>02. Scene\01. Title</Filter>
+    </ClCompile>
+    <ClCompile Include="StgAirman.cpp">
+      <Filter>02. Scene\04. Stg_Airman</Filter>
+    </ClCompile>
+    <ClCompile Include="BmpMgr.cpp">
+      <Filter>07. Manager\02. BmpMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBmp.cpp">
+      <Filter>07. Manager\02. BmpMgr\00. MyBmp</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>07. Manager\03. KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>07. Manager\04. ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollMgr.cpp">
+      <Filter>07. Manager\06. ScrollMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEdit.cpp">
+      <Filter>02. Scene\06. Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>07. Manager\07. CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalTile.cpp">
+      <Filter>01. Obj\03. Tile\00. NormalTile</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_RWalk.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\01. Walk</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_Animation.cpp">
+      <Filter>01. Obj\00. Player\01. Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_RJump.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\02. Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_RJump_Atk.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\06. JumpAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_LWalk.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\01. Walk</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_RWalk_Atk.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\05. WalkAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_RAtk.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\03. Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_LWalk_Atk.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\05. WalkAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_LJump.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\02. Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_LJump_Atk.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\06. JumpAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_LAtk.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\03. Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_RSliding.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\04. Sliding</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_LSliding.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\04. Sliding</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_LIdle.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\00. Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_RIdle.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\00. Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_MC_LIdle.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\01. MCState\00. Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_MC_RIdle.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\01. MCState\00. Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_FC_RIdle.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\02. FCState\00. Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_FC_LIdle.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\02. FCState\00. Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_MC_LWalk.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\01. MCState\01. Walk</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_MC_RWalk.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\01. MCState\01. Walk</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_MC_LSliding.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\01. MCState\03. Sliding</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_MC_RSliding.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\01. MCState\03. Sliding</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_MC_LJump.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\01. MCState\02. Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_MC_RJump.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\01. MCState\02. Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_FC_LWalk.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\02. FCState\01. Walk</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_FC_RWalk.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\02. FCState\01. Walk</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_FC_LJump.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\02. FCState\02. Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_FC_RJump.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\02. FCState\02. Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_FC_LSliding.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\02. FCState\03. Sliding</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_FC_RSliding.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\02. FCState\03. Sliding</Filter>
+    </ClCompile>
+    <ClCompile Include="Air_Man.cpp">
+      <Filter>01. Obj\01. Enemy\00. Air_Man</Filter>
+    </ClCompile>
+    <ClCompile Include="Air_ManState.cpp">
+      <Filter>01. Obj\01. Enemy\00. Air_Man\Air_ManState</Filter>
+    </ClCompile>
+    <ClCompile Include="Air_ManAnimation.cpp">
+      <Filter>01. Obj\01. Enemy\00. Air_Man\Air_ManAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="AM_Opening.cpp">
+      <Filter>01. Obj\01. Enemy\00. Air_Man\Air_ManState\00. Opening</Filter>
+    </ClCompile>
+    <ClCompile Include="AM_LAir_Jump.cpp">
+      <Filter>01. Obj\01. Enemy\00. Air_Man\Air_ManState\02. Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="AM_RAir_Jump.cpp">
+      <Filter>01. Obj\01. Enemy\00. Air_Man\Air_ManState\02. Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="AM_RIdle.cpp">
+      <Filter>01. Obj\01. Enemy\00. Air_Man\Air_ManState\01. Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="AM_LIdle.cpp">
+      <Filter>01. Obj\01. Enemy\00. Air_Man\Air_ManState\01. Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="AM_RSplash_Wind.cpp">
+      <Filter>01. Obj\01. Enemy\00. Air_Man\Air_ManState\03. SplashWind</Filter>
+    </ClCompile>
+    <ClCompile Include="AM_LSplash_Wind.cpp">
+      <Filter>01. Obj\01. Enemy\00. Air_Man\Air_ManState\03. SplashWind</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_Wind.cpp">
+      <Filter>01. Obj\05. Bullet\01. BossBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="AM_LPush_Wind.cpp">
+      <Filter>01. Obj\01. Enemy\00. Air_Man\Air_ManState\04. PushWind</Filter>
+    </ClCompile>
+    <ClCompile Include="AM_RPush_Wind.cpp">
+      <Filter>01. Obj\01. Enemy\00. Air_Man\Air_ManState\04. PushWind</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_HpNote.cpp">
+      <Filter>03. UI\01. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_HpBar.cpp">
+      <Filter>03. UI\01. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BossHit.cpp">
+      <Filter>04. Effect\01. BossHit</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_LHit.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\07. Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_RHit.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\07. Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHit.cpp">
+      <Filter>04. Effect\00. PlayerHit</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>07. Manager\08. SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Cloud.cpp">
+      <Filter>01. Obj\06. Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="GoblinTile.cpp">
+      <Filter>01. Obj\03. Tile\02. GoblinTile</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMgr.cpp">
+      <Filter>07. Manager\09. TileMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="GoblinTrigger.cpp">
+      <Filter>05. Trigger\00. GoblinTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerMgr.cpp">
+      <Filter>07. Manager\10. TriggerMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger.cpp">
+      <Filter>05. Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudTile.cpp">
+      <Filter>01. Obj\03. Tile\01. CloudTile</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>01. Obj\03. Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="SclMove_YTrigger.cpp">
+      <Filter>05. Trigger\01. ScrollYTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="SclFix_XTrigger.cpp">
+      <Filter>05. Trigger\02. ScrollXTrigger\00. SclFix_XTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="SclMove_XTrigger.cpp">
+      <Filter>05. Trigger\02. ScrollXTrigger\01. SclMove_XTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="BossTrigger.cpp">
+      <Filter>05. Trigger\03. BossTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectBoss.cpp">
+      <Filter>02. Scene\02. SelectBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="BossIntro.cpp">
+      <Filter>02. Scene\03. BossIntor</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_DownTp.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\08. Teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_SuccesTp.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\08. Teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="PucciGoblin.cpp">
+      <Filter>01. Obj\01. Enemy\01. Pucci Goblin</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudTrigger.cpp">
+      <Filter>05. Trigger\04. CloudTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="ThunderLoad.cpp">
+      <Filter>01. Obj\01. Enemy\02. ThunderLoad</Filter>
+    </ClCompile>
+    <ClCompile Include="Thunder.cpp">
+      <Filter>01. Obj\05. Bullet\02. EnemyBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipi.cpp">
+      <Filter>01. Obj\01. Enemy\03. Pipi</Filter>
+    </ClCompile>
+    <ClCompile Include="PipiEgg.cpp">
+      <Filter>01. Obj\01. Enemy\03. Pipi\00. PipiEgg</Filter>
+    </ClCompile>
+    <ClCompile Include="CoPipi.cpp">
+      <Filter>01. Obj\01. Enemy\03. Pipi\01. CoPipi</Filter>
+    </ClCompile>
+    <ClCompile Include="PipiTrigger.cpp">
+      <Filter>05. Trigger\05. PipiTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Matasaburo.cpp">
+      <Filter>01. Obj\01. Enemy\04. Matasaburo</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallDead.cpp">
+      <Filter>04. Effect\02. EnemyDead\01. SmallDead</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectMgr.cpp">
+      <Filter>07. Manager\11. EffectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>04. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="MiddleDead.cpp">
+      <Filter>04. Effect\02. EnemyDead\02. MiddleDead</Filter>
+    </ClCompile>
+    <ClCompile Include="LargeDead.cpp">
+      <Filter>04. Effect\02. EnemyDead\03. LargeDead</Filter>
+    </ClCompile>
+    <ClCompile Include="VerySmallDead.cpp">
+      <Filter>04. Effect\02. EnemyDead\00. VerySmallDead</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallHelth.cpp">
+      <Filter>01. Obj\02. Item\00. SmallHelth</Filter>
+    </ClCompile>
+    <ClCompile Include="LargeHelth.cpp">
+      <Filter>01. Obj\02. Item\01. LargeHelth</Filter>
+    </ClCompile>
+    <ClCompile Include="DeadTrigger.cpp">
+      <Filter>05. Trigger\06. DeadTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorTrigger.cpp">
+      <Filter>05. Trigger\07. DoorTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="PlDeadEffect.cpp">
+      <Filter>04. Effect\03. PlayerDead</Filter>
+    </ClCompile>
+    <ClCompile Include="BsDeadEffect.cpp">
+      <Filter>04. Effect\04. BossDead</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEnd.cpp">
+      <Filter>02. Scene\05. End</Filter>
+    </ClCompile>
+    <ClCompile Include="Pl_UpTp.cpp">
+      <Filter>01. Obj\00. Player\00. PlayerState\00. NormalState\08. Teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>03. UI\00. Player\00. Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="FCBullet.cpp">
+      <Filter>01. Obj\05. Bullet\00. PlayerBullet\00. Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="MCBullet.cpp">
+      <Filter>01. Obj\05. Bullet\00. PlayerBullet\00. Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalBullet.cpp">
+      <Filter>01. Obj\05. Bullet\00. PlayerBullet\00. Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="MetalBlade.cpp">
+      <Filter>01. Obj\05. Bullet\00. PlayerBullet\01. MetalBlade</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_HpBar.cpp">
+      <Filter>03. UI\00. Player\01. Hp</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_HpNote.cpp">
+      <Filter>03. UI\00. Player\01. Hp</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_MpBar.cpp">
+      <Filter>03. UI\00. Player\02. Mp</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_MpNote.cpp">
+      <Filter>03. UI\00. Player\02. Mp</Filter>
+    </ClCompile>
+    <ClCompile Include="ReefShield.cpp">
+      <Filter>01. Obj\05. Bullet\00. PlayerBullet\02. ReefShield</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallMp.cpp">
+      <Filter>01. Obj\02. Item\02. SmallMp</Filter>
+    </ClCompile>
+    <ClCompile Include="LargeMp.cpp">
+      <Filter>01. Obj\02. Item\03. LargeMp</Filter>
+    </ClCompile>
+    <ClCompile Include="RushCoil.cpp">
+      <Filter>01. Obj\05. Bullet\00. PlayerBullet\03. Rush</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DefaultWindow.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="DefaultWindow.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

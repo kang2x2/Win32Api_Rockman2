@@ -1,0 +1,73 @@
+#include "stdafx.h"
+#include "Pl_MC_RIdle.h"
+
+#include "Pl_RAtk.h"
+#include "Pl_FC_RIdle.h"
+#include "Pl_MC_RWalk.h"
+#include "Pl_MC_LWalk.h"
+#include "Pl_MC_RJump.h"
+#include "Pl_MC_RSliding.h"
+
+CPl_MC_RIdle::CPl_MC_RIdle(CPlayer* _pPlayer)
+{
+	m_pPlayer = _pPlayer;
+}
+
+
+CPl_MC_RIdle::~CPl_MC_RIdle()
+{
+}
+
+void CPl_MC_RIdle::Update()
+{
+	m_animation.Player_Animation(m_pPlayer, ST_RM_CHARGE);
+	CCollisionMgr::Colision_CloudTile(m_pPlayer, CObjMgr::Get_Instance()->Get_ObjList(OBJ_TILE));
+
+	// 기모으기
+	if (CKeyMgr::Get_Instance()->Key_Pressing('Z')) {
+		CPlayerState::m_fChargeTime += 1.0f;
+		if (CPlayerState::m_fChargeTime > m_fFCTime) {
+			m_pPlayer->Set_State(new CPl_FC_RIdle(m_pPlayer));
+			return;
+		}
+	}
+
+	// 미들 차지 발사
+	if (CKeyMgr::Get_Instance()->Key_Up('Z')) {
+		CSoundMgr::Get_Instance()->StopSound(SOUND_CHARGE);
+		CPlayerState::m_fChargeTime = 0;
+		m_pPlayer->Set_Charge(false);
+		CPlayerState::m_fCurTime_A = GetTickCount() + m_fAtkTime;
+		Create_MCBullet_R();
+		m_pPlayer->Set_State(new CPl_RAtk(m_pPlayer));
+		return;
+	}
+
+	// 오른쪽으로 걷기
+	if (CKeyMgr::Get_Instance()->Key_Pressing(VK_RIGHT)) {
+		m_pPlayer->Set_State(new CPl_MC_RWalk(m_pPlayer));
+		return;
+	}
+
+	// 왼쪽으로 걷기
+	if (CKeyMgr::Get_Instance()->Key_Pressing(VK_LEFT)) {
+		m_pPlayer->Set_State(new CPl_MC_LWalk(m_pPlayer));
+		return;
+	}
+
+	// 제자리에서 오른쪽으로 점프
+	if (CKeyMgr::Get_Instance()->Key_Down('X')) {
+		m_pPlayer->Set_Jump(true);
+		m_pPlayer->Set_State(new CPl_MC_RJump(m_pPlayer));
+		return;
+	}
+
+	// 제자리에서 오른쪽으로 슬라이딩
+	if (CKeyMgr::Get_Instance()->Key_Down('C')) {
+		CPlayerState::m_fCurTime_S = GetTickCount() + m_fSlideTime;
+		m_pPlayer->Set_State(new CPl_MC_RSliding(m_pPlayer));
+		return;
+	}
+}
+
+
